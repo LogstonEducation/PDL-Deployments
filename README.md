@@ -19,3 +19,11 @@ Allow http traffic!
 
 sudo python3 -m http.server 80
 
+# GAE
+
+gcloud app deploy
+
+
+# GKS
+
+
