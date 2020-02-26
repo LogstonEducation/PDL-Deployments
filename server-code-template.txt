@@ -1,0 +1,11 @@
+Hello {EMAIL}!
+
+You've been issued a server code for use use with the PDL Deployments
+course. Please use the code and guide below to setup your Google Cloud Platform account.
+
+Server Code: {SERVER_CODE}
+
+Setup guide: https://docs.google.com/document/d/10o6iFI4R4BacmHsIWn5lEKsJnRL9RG1zEJ4D2qlS8Qs
+
+Best,
+Paul
