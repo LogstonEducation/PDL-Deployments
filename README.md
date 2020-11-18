@@ -1,27 +1,36 @@
-# What is a deployment?
-Why do we need it? Why can't I just build on my local machine? 
-What is infrastructure? Where is it?
+# PDL-Deployments
 
-Set up virtual machine.
-https://docs.google.com/document/d/10o6iFI4R4BacmHsIWn5lEKsJnRL9RG1zEJ4D2qlS8Qs
-Allow http traffic!
-sudo python3 -m http.server 80
+## Outline
 
-    sudo apt update
-    sudo apt-get install -y python3-venv
-    git clone https://bitbucket.org/LogstonEducation/pdl-deployments.git
-    cd pdl-deployments
-    python3 -m venv env
-    source env/bin/activate
-    pip install -r requirements.txt
+### Background
+    - Why do we need it?
+    - Why can't I just build on my local machine? 
+    - What is infrastructure?
+    - Where is it?
 
-# GAE
+### Setup 
+    - [Set up a GCP project](https://docs.google.com/document/d/10o6iFI4R4BacmHsIWn5lEKsJnRL9RG1zEJ4D2qlS8Qs)
+    
+### Virtual Machine
+    - Create new VM, Allow http traffic!
+    - sudo python3 -m http.server 80
+    - ```sh
+        sudo apt update
+        sudo apt-get install -y python3-venv
+        git clone https://bitbucket.org/LogstonEducation/pdl-deployments.git
+        cd pdl-deployments
+        python3 -m venv env
+        source env/bin/activate
+        pip install -r requirements.txt
+        ```
+
+### GAE
 
 - app.yaml
 - main.py
 - gcloud app deploy
 
-# GKE
+### GKE
 
 - First, let's dockerize the application
   - Dockerfile
