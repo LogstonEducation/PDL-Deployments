@@ -19,16 +19,19 @@ gcloud config set project <YOUR PROJECT ID>
 ```
 
 ### Virtual Machine
-- Create new VM, Allow http traffic!
+- Create new VM (debian), Allow http traffic!
 - sudo python3 -m http.server 80
 - ```sh
     sudo apt update
-    sudo apt-get install -y python3-venv
+    sudo apt-get install -y python3-venv git
     git clone https://github.com/LogstonEducation/PDL-Deployments.git
     cd pdl-deployments
     python3 -m venv env
     source env/bin/activate
     pip install -r requirements.txt
+    
+    which python
+    sudo /home/pl2648/PDL-Deployments/env/bin/python manage.py runserver 0.0.0.0:80
     ```
 
 ### GAE
