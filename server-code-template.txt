@@ -7,5 +7,7 @@ Server Code: {SERVER_CODE}
 
 Setup guide: https://docs.google.com/document/d/10o6iFI4R4BacmHsIWn5lEKsJnRL9RG1zEJ4D2qlS8Qs
 
+If you have any questions, please reach out to the PDL team.
+
 Best,
 Paul
