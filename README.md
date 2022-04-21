@@ -36,8 +36,7 @@ gcloud config set project <YOUR PROJECT ID>
 
 ### GAE
 
-- Enable https://console.d
-evelopers.google.com/apis/api/cloudbuild.googleapis.com/overview?project=pdl-deployments-pl2648-sp22
+- Enable https://console.developers.google.com/apis/api/cloudbuild.googleapis.com/overview?project=pdl-deployments-pl2648-sp22
 - app.yaml
 - main.py
 - gcloud app deploy
